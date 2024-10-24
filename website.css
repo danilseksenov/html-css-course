@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.site-logo{
+    width: 200px;
+}
+
+.left-corner{
+    border: solid black;
+    display: flex;
+    flex: 1;
+}
+
+.right.corner{
+    display: flex;
+    flex: 2;
+}
