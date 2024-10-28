@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    
         <title>SuperCar</title>
         <link rel="stylesheet" href="website.css">
     </head>
@@ -11,76 +15,79 @@
     <body>  
         <div class="navbar">
             <div class="left-corner">
-                <img>
+                <img class="site-logo" src="images/logo2.png">
             </div>
             <div class="right-corner">
-                <p class="home-button">
-                    Home
-                </p>
-                <p class="product-button">
-                    Products
-                </p>
-                <p class="contact-button">
-                    Contact
-                </p>
+                <a href="#home-section" class="home-button">Home</a>
+                <a href="#products-section" class="product-button">Products</a>
+                <a href="#contact-section" class="contact-button">Contact</a>   
             </div>
         </div>  
     
+        <div id="home-section">
+            <div>
+                <p class="company-name">
+                    SuperCar
+                </p>
+            </div>
+            <div class="lambo-container">
+                <img src="images/lambo2.png" alt="">
+                <p>Lamborghini is famous for its high-performance supercars, blending Italian design with cutting-edge technology. Founded in 1963 to rival Ferrari, it’s known for bold models like the Aventador and Huracán, featuring powerful engines and eye-catching designs. With scissor doors and luxury touches, every Lamborghini is a symbol of speed, innovation, and exclusivity.</p>
+            </div>
+        </div>
+
         <div>
-            <p class="company-name">
-                SuperCar
-            </p>
-        </div>
-        
-        <div class="lambo-container">
-            <img src="images/lambo2.png" alt="">
-            <p>Lamborghini is famous for its high-performance supercars, blending Italian design with cutting-edge technology. Founded in 1963 to rival Ferrari, it’s known for bold models like the Aventador and Huracán, featuring powerful engines and eye-catching designs. With scissor doors and luxury touches, every Lamborghini is a symbol of speed, innovation, and exclusivity.</p>
+            <p class="product-text">Products</p>
         </div>
 
-        <div class="image-container">
-            <img src="images/ferrari1.png">
-            <p>Ferrari is a prestigious Italian luxury sports car manufacturer, founded by Enzo Ferrari in 1939. Known for its high-performance vehicles and rich motorsport legacy, the brand features iconic models like the Ferrari 250 GTO and LaFerrari. With its distinctive prancing horse logo, Ferrari symbolizes innovation, speed, and excellence in automotive design.</p>
-        </div>
-
-        <div class="image-row">
-            <div class="car-pic">
-                <img class="bmw-pic" src="images/bmw.jpg" alt="">
-                <p><strong>Engine:</strong> 4.4L Twin-Turbo V8</p>
-                <p><strong>Power:</strong> 627 horsepower, 553 lb-ft of torque</p>
-                <p><strong>0-60 mph:</strong> 2.9 seconds</p>
-                <p><strong>Drivetrain:</strong> All-Wheel Drive (AWD)</p>
-                <p><strong>Transmission:</strong> 8-speed automatic</p>
+        <div id="products-section">
+            <div class="image-container">
+                <img src="images/ferrari1.png">
+                <p>Ferrari is a prestigious Italian luxury sports car manufacturer, founded by Enzo Ferrari in 1939. Known for its high-performance vehicles and rich motorsport legacy, the brand features iconic models like the Ferrari 250 GTO and LaFerrari. With its distinctive prancing horse logo, Ferrari symbolizes innovation, speed, and excellence in automotive design.</p>
             </div>
-            <div class="car-pic">
-                <img class="merc-pic" src="images/merc.jpg" alt="">
-                <p><strong>Engine:</strong> 4.0L Twin-Turbo V8</p>
-                <p><strong>Power:</strong> 603 horsepower, 627 lb-ft of torque</p>
-                <p><strong>0-60 mph:</strong> 3.3 seconds</p>
-                <p><strong>Drivetrain:</strong> 4MATIC + All-Wheel Drive</p>
-                <p><strong>Transmission:</strong> 9-speed automatic</p>
+    
+            <div class="image-row">
+                <div class="car-pic">
+                    <img class="bmw-pic" src="images/bmw.jpg" alt="">
+                    <p><strong>Engine:</strong> 4.4L Twin-Turbo V8</p>
+                    <p><strong>Power:</strong> 627 horsepower, 553 lb-ft of torque</p>
+                    <p><strong>0-60 mph:</strong> 2.9 seconds</p>
+                    <p><strong>Drivetrain:</strong> All-Wheel Drive (AWD)</p>
+                    <p><strong>Transmission:</strong> 8-speed automatic</p>
+                </div>
+                <div class="car-pic">
+                    <img class="merc-pic" src="images/merc.jpg" alt="">
+                    <p><strong>Engine:</strong> 4.0L Twin-Turbo V8</p>
+                    <p><strong>Power:</strong> 603 horsepower, 627 lb-ft of torque</p>
+                    <p><strong>0-60 mph:</strong> 3.3 seconds</p>
+                    <p><strong>Drivetrain:</strong> 4MATIC + All-Wheel Drive</p>
+                    <p><strong>Transmission:</strong> 9-speed automatic</p>
+                </div>
+                <div class="car-pic">
+                    <img class="audi-pic" src="images/audi.webp" alt="">
+                    <p><strong>Engine:</strong> 4.0L Twin-Turbo V8</p>
+                    <p><strong>Power:</strong> 591 horsepower, 590 lb-ft of torque</p>
+                    <p><strong>0-60 mph:</strong> 3.5 seconds</p>
+                    <p><strong>Drivetrain:</strong> Quattro All-Wheel Drive (AWD)</p>
+                    <p><strong>Transmission:</strong> 8-speed automatic</p>
+                </div>    
             </div>
-            <div class="car-pic">
-                <img class="audi-pic" src="images/audi.webp" alt="">
-                <p><strong>Engine:</strong> 4.0L Twin-Turbo V8</p>
-                <p><strong>Power:</strong> 591 horsepower, 590 lb-ft of torque</p>
-                <p><strong>0-60 mph:</strong> 3.5 seconds</p>
-                <p><strong>Drivetrain:</strong> Quattro All-Wheel Drive (AWD)</p>
-                <p><strong>Transmission:</strong> 8-speed automatic</p>
-            </div>    
         </div>
         
-        <div class="last-page">
-            <div class="contact-text">
-                <div><p class="contact-us"><strong>Contact us</strong></p></div>
-                <p><em>Visit us at:</em></p>
-                <p><em>SuperCar</em></p>
-                <p><em>Karaportti 2</em></p>
-                <p><em>02340 ESPOO</em></p>
-                <p><em>Finland</em></p>
-                <p><em>Email: <strong>info@metropolia.fi</strong></em></p>
-                <p><em>Phone: <strong>+358 (0)401231233</strong></em></p>
+        <div id="contact-section">
+            <div class="last-page">
+                <div class="contact-text">
+                    <div><p class="contact-us"><strong>Contact us</strong></p></div>
+                    <p><em>Visit us at:</em></p>
+                    <p><em>SuperCar</em></p>
+                    <p><em>Karaportti 2</em></p>
+                    <p><em>02340 ESPOO</em></p>
+                    <p><em>Finland</em></p>
+                    <p><em>Email: <strong>info@metropolia.fi</strong></em></p>
+                    <p><em>Phone: <strong>+358 (0)401231233</strong></em></p>
+                </div>
+                <img class="map" src="images/map.png" alt="">
             </div>
-            <img class="map" src="images/map.png" alt="">
         </div>
     </body>
 </html>
